@@ -17,7 +17,7 @@ export default {
   module:{
     loaders: [
       {test:/\.js$/, exclude: /mode_modules/, loaders:['babel']},
-      {test: /\.css$/,loaders: ['style','cs']}
+      {test: /\.css$/,loaders: ['style','css']}
     ]
   }
 }
