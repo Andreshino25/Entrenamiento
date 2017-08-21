@@ -1,6 +1,6 @@
 # test againt this version of Node.js
 environment:
-  matriz:
+  matrix:
   # node.js
   - nodejs_version:"8"
 
